@@ -1,10 +1,10 @@
 .weather {
-    max-width: 800px;
-    margin: 2rem auto;
+    max-width: 500px;
+    margin: 1rem auto;
     padding: 2rem;
     background: linear-gradient(135deg, #00feba, #5b548a);
-    border-radius: 20px;
-    color: white;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
@@ -53,14 +53,14 @@ button:hover {
 .weather-details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    margin-top: 2rem;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .detail-box {
     background: rgba(255, 255, 255, 0.1);
-    padding: 1.5rem;
-    border-radius: 15px;
+    padding: 1rem;
+    border-radius: 12px;
     backdrop-filter: blur(10px);
 }
 
@@ -73,3 +73,13 @@ button:hover {
     margin: 0;
     font-size: 1.1rem;
 }
+
+.detail-box p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+.detail-box p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+

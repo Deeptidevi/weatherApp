@@ -7,45 +7,48 @@
     <link rel="Stylesheet" href="stryle.css">
 </head>
 <body>
+    
     <div class="weather">
-        <h1>CURRENT WEATHER</h1>
+        <h1>WEATHER DETECTOR</h1>
         <div class="search">
-            <input type="text" id="cityInput" placeholder="Enter city name">
+            <input type="text" class="cityInput" placeholder="Enter city name">
             
             <button id="searchBotton" >Search</button>
        
-            </div>
-            <div class="units">
-                <label>
-                    <input type="radio" name="unit" value="celsius" checked>
-                    celsius
-                </label>
-                <label>
-                    <input type="radio" name="unit" value="fahrenheit" checked>
-                    fahrenheit
-                </label>
             </div>
             <div class="info">
                <h2 id="cityName"></h2>
                <div class="weather-details">
                 <div class="detail-box">
                     <i class ="fas fa-temperature-high"></i>
-                <p>Temperature: <span id="temp"></span>C</p>
+                <p>Max Temp: <span id="temp"></span>C</p>
                </div>
                <div class="detail-box">
-                <i class="fas fa-tint"></i>
-                <p>Humidity: <span id="humidity"></span>%</p>
-               </div> 
+                <i class ="fas fa-temperature-high"></i>
+            <p>Min Temp: <span id="tempr"></span>C</p>
+           </div>
+               
                <div class="detail-box">
                 <i class="fas fa-wind"></i>
                 <p>Wind Speed: <span id="wind"></span>km/h</p>
             </div>
+            <div class="detail-box">
+                <i class="fas fa-tint"></i>
+                <p>CURRENT Humidity : <span id="humidity"></span>%</p>
+               </div> 
+            
+             <div class="detail-box">
+                <i class="fas fa-wind"></i>
+                <p>sunset: <span id="sunset"></span></p>
+            </div>
         <div class="detail-box">
         <i class="fas fa-cloud"></i>
-        <p>Weather: <span id="description"></span></p>
+        <p>sunrise: <span id="sunrise"></span></p>
         </div>
         </div>
         </div>
     </div>
+    
 </body>
+<Script src="pro.js"></Script>
 </html>
